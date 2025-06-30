@@ -1,0 +1,13 @@
+size     0       500       1000        1500
+small   58        45       20           10
+medium  40        45       60           40
+big     2         10       20           50
+
+
+recyclage robot :
+        processing unit 2+ 1(0.3)
+        low density 1
+        matrice neural 0.05
+
+ferme a bois => (100bois = 1 carbon) dans le truc des robots
+        oxydyzer + oxyde thruster => rocket fuel on refait les recettes   (chemical plant)
