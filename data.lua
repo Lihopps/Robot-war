@@ -1,9 +1,15 @@
 lihop_debug = false
 
+require("prototypes.sprite")
+require("prototypes.enemies.replicateur")
+require("prototypes.entities.logistics.station")
+
+
+require("prototypes.asura.tile")
 --[[
 
 
-]]
+
 require("prototypes.autoplace-controls")
 require("prototypes.robot-building.asura-bases-proxy")
 require("prototypes.robot-building.robot-spawner")
@@ -23,7 +29,7 @@ require("prototypes.sprite")
 require("prototypes.technology")
 
 require("prototypes.tips-and-tricks")
-
+]]
 
 if lihop_debug then
     for name, prototype in pairs(data.raw["space-connection"]) do
